@@ -1,0 +1,57 @@
+body {
+  background-image: url(https://miro.medium.com/max/1400/1*29NLGKPWGLUFxQCrCoEKwA.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.form_border {
+  background-image: url(https://blog.sheetgo.com/wp-content/uploads/2018/08/finance-templates-blog-images-07.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(124, 128, 0);
+  padding: 1% 1%;
+  border-radius: 18px;
+}
+.Heading {
+  text-align: center;
+  color: black;
+}
+.form {
+  text-align: center;
+}
+.submit {
+  text-align: center;
+  margin-top: 8px;
+  display: block;
+  color: black;
+  background-color: green;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 7px;
+}
+.type {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.Description{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.ammount{
+    font-size: 20px;
+    border-radius: 5px;
+}
+level{
+    font-size: 20px;
+}

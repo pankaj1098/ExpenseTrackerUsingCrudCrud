@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenceTracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_border">
+   <h1 class="Heading" id="Heading">EXPENSE TRACKER</h1> 
+   <hr>
+   <form class="form" id="fb" onSubmit=saveToLocalStorage(event)>
+    <label class="ea" id="ea">Expence amount</label><br>
+    <input type="number" class="ammount" id="ammount" required><br>
+    <label class="ed" id="ed">Expence Description</label><br>
+    <input class="Description" id="Description" required><br>
+    <label class="et" id="et">Expence Type</label><br>
+    <select id="Type" class="type">
+        <option value="choose">Select Category</option>
+        <option value="bills">Bills</option>
+        <option value="grocery">Grocery</option>
+        <option value="food">Food</option>
+        <option value="travel">Travel</option>
+        <option value="rent">Rent</option>
+        <option value="shopping">Shopping</option>
+        <option value="health">Healthcare</option>
+        <option value="others">Others</option>
+      </select><br>
+    <button class="submit" id="submit">Add Expense</button>
+   </form>
+   <ul id="users"></ul>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+   <script src="responce.js"></script>
+</body>
+</html>
